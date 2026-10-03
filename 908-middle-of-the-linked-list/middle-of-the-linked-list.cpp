@@ -15,9 +15,9 @@ class Solution {
             return head;
         }
         //2 Node
-        if(head->next->next == NULL){
-            return head->next;
-        }
+        // if(head->next->next == NULL){
+        //     return head->next;
+        // }
 
         ListNode* slow = head;
         ListNode* fast = head->next;
